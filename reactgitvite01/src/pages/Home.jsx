@@ -1,6 +1,7 @@
 import './home.css'
 import {useState, useEffect} from 'react'
-
+import Carousel from '../components/Carousel'
+import Swiperx from '../components/Swiperx'
 
 /* const [object, setObject] = useState({namn: 'Olle', ålder: 25}) */
 /* {id: 1, text: 'hej'} */
@@ -23,13 +24,14 @@ const Home = () => {
 
     return (
         <div className="Home">
-            <h1>HOME</h1>
-
-            <input type="text" placeholder='add item' value={inputValue} onChange={handleInput}/>
+            <h1>BUY CRYPTO</h1>
+            {/* <Carousel /> */}
+            <Swiperx />
+            {/* <input type="text" placeholder='add item' value={inputValue} onChange={handleInput}/>
             <button onClick={handleClick}>Add</button>
             <div>{list.map((item, index) => (
                 <p key={index}>{item} {'INDEX: ' + index}</p>
-            ))}</div>
+            ))}</div> */}
         </div>
     )
 }

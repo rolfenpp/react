@@ -8,19 +8,27 @@ import Ip from './components/Ip'
 import Home from './pages/Home'
 import About from './pages/About'
 
+
 function App() {
 
   return (
    <BrowserRouter>
       <Ip />
       <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="about">About</NavLink>
-      </nav>
-      <Routes>
-        <Route index element={<Home />}/>
-        <Route path='/about' element={<About />}/>
-      </Routes>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="about">About</NavLink>
+        </nav>
+      <main>
+        <section>
+          
+          <Routes>
+            <Route index element={<Home />}/>
+            <Route path='/about' element={<About />}/>
+          </Routes>
+
+          
+        </section>
+      </main>
     </BrowserRouter> 
   )
 }
