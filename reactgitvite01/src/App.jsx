@@ -13,22 +13,22 @@ function App() {
 
   return (
    <BrowserRouter>
-      <Ip />
+      {/* <Ip /> */}
       <nav>
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
         </nav>
       <main>
-        <section>
-          
+        <section className='swiperx-section'>
           <Routes>
             <Route index element={<Home />}/>
             <Route path='/about' element={<About />}/>
           </Routes>
-
-          
         </section>
       </main>
+      <footer>
+        <h1>Footer</h1>
+      </footer>
     </BrowserRouter> 
   )
 }

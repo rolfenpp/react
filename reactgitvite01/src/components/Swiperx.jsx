@@ -8,10 +8,6 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
-
-import img1 from '../assets/img1.jpg'
-import img2 from '../assets/img2.jpg'
-import img3 from '../assets/img3.jpg'
 import dbrow from '../assets/dbrow.jpg'
 import deadlift from '../assets/deadlift.jpg'
 import personlake from '../assets/personlake.jpg'
@@ -27,12 +23,12 @@ const Swiperx = () => {
         navigation
         
         effect 
-        speed={800}
+        speed={900}
         slidesPerView={1}
         loop={true}
         autoplay={{delay: 2500, disableOnInteraction: false}}
         /* className={styles.myswiper} */>
-        <SwiperSlide><img src={personlake}/><h1>Start Journey</h1></SwiperSlide>
+        <SwiperSlide><img src={personlake}/></SwiperSlide>
         <SwiperSlide><img src={deadlift}/></SwiperSlide>
         <SwiperSlide><img src={dbrow}/></SwiperSlide>
 
