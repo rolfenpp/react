@@ -23,7 +23,7 @@ const Swiperx = () => {
         navigation
         
         effect 
-        speed={900}
+        speed={700}
         slidesPerView={1}
         loop={true}
         autoplay={{delay: 2500, disableOnInteraction: false}}

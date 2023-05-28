@@ -17,12 +17,12 @@ const Deals = () =>{
             <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             navigation
-            spaceBetween={10}
+            spaceBetween={80}
             effect 
             speed={900}
-            slidesPerView={2}
+            slidesPerView={3}
             loop={true}
-            autoplay={{delay: 2500, disableOnInteraction: false}}>
+            >
 
         <SwiperSlide><img src={gymp01}/></SwiperSlide>
         <SwiperSlide><img src={gymp02}/></SwiperSlide>

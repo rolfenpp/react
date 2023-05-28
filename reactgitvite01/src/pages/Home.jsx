@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react'
 import Carousel from '../components/Carousel'
 import Swiperx from '../components/Swiperx'
 import Deals from '../components/Deals'
+import Twoimg from '../components/Twoimg'
 
 /* const [object, setObject] = useState({namn: 'Olle', ålder: 25}) */
 /* {id: 1, text: 'hej'} */
@@ -25,9 +26,19 @@ const Home = () => {
 
     return (
         <div className="Home">
-            <Swiperx />
+
+            <div className='swiper-hero'>
+                <Swiperx />
+            </div>
+
             <div><h1>Summer Sale!</h1></div>
-            <Deals />
+
+            <div className='swiper-deals'>
+                <Deals />
+            </div>
+            <div>
+                <Twoimg />
+            </div>
         </div>
     )
 }
