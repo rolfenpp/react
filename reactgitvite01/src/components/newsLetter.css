@@ -1,0 +1,11 @@
+.newsLetter {
+    background-color: rgb(143, 143, 143);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsLetter img {
+    
+}

@@ -4,6 +4,7 @@ import Carousel from '../components/Carousel'
 import Swiperx from '../components/Swiperx'
 import Deals from '../components/Deals'
 import Twoimg from '../components/Twoimg'
+import NewsLetter from '../components/NewsLetter'
 
 /* const [object, setObject] = useState({namn: 'Olle', ålder: 25}) */
 /* {id: 1, text: 'hej'} */
@@ -38,6 +39,10 @@ const Home = () => {
             </div>
             <div>
                 <Twoimg />
+            </div>
+
+            <div>
+                <NewsLetter />
             </div>
         </div>
     )
